@@ -9,7 +9,7 @@
 
 
 ## Description
- A social network api that allows the user store information such as users and thoughts. The user has the ability to make changes to the database such as add to, delete from, and update the values stored. This includes a user's username, email, thoughts, reactions, and even friends.    
+ A social network api that allows the user to add and store information such as users and thoughts. The user has the ability to make changes to the database such as add to, delete from, and update the values stored. This includes a user's username, email, thoughts, reactions, and even friends.    
 
 ## Instructions
 By running "npm install" in the terminal all the rquired npm dependencies will be installed. Then start the server with "npm run watch" command in the terminal.
