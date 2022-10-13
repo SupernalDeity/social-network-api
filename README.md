@@ -17,7 +17,7 @@ By running "npm install" in the terminal all the rquired npm dependencies will b
 ## Visuals
 ![example of program](./assets/social%20network%20capture.JPG)
 
-[WalkThrough Video](https://drive.google.com/file/d/1jwPJoH5KDDWfuToqzr313H5qXIB21r_N/view?usp=sharing)
+[WalkThrough Video](https://drive.google.com/file/d/1M4uH-S2yZHb_anbbA-N_XbNI3xZwC9rk/view?usp=sharing)
 
 ## Links
 GitHub: https://github.com/SupernalDeity/social-network-api
