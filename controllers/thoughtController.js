@@ -14,4 +14,23 @@ module.exports = {
         return res.status(500).json(err);
       });
   },
+  getThought(req, res) {
+    Thought.findOne({ _id: req.params.thoughtId })
+      .select("-__v")
+      .then((result) =>
+        !result
+          ? res.status(404).json({ message: "No thought with that ID" })
+          : res.json(result)
+      )
+      .catch((err) => res.status(500).json(err));
+  },
+  deleteThought(req, res) {
+    Thought.findOneAndDelete({ _id: req.params.thoughtId })
+      .then((result) =>
+        !result
+          ? res.status(404).json({ message: 'No thought with that ID' })
+          : res.json({ message: 'Thought deleted!' }))
+      .catch((err) => res.status(500).json(err));
+  },
 };
+
